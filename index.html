@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatBnB - Find Your Perfect Slip</title>
+    <style>
+        /* Basic styles to organize the page layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .search-section, .featured-listings, .about, .contact, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        .search-section {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>BoatBnB</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search Slips</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <h2>Find a Slip for Your Boat</h2>
+        <form action="#">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter a location...">
+            <br><br>
+            <label for="checkin">Check-in:</label>
+            <input type="date" id="checkin" name="checkin">
+            <br><br>
+            <label for="checkout">Check-out:</label>
+            <input type="date" id="checkout" name="checkout">
+            <br><br>
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
+    <!-- Featured Listings Section -->
+    <section class="featured-listings">
+        <h2>Featured Listings</h2>
+        <div>
+            <img src="slip1.jpg" alt="Slip 1" width="200" height="150">
+            <p>Beautiful Slip in Marina Del Rey</p>
+        </div>
+        <div>
+            <img src="slip2.jpg" alt="Slip 2" width="200" height="150">
+            <p>Quiet Harbor in Newport Beach</p>
+        </div>
+        <div>
+            <img src="slip3.jpg" alt="Slip 3" width="200" height="150">
+            <p>Luxury Slip in San Francisco</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About BoatBnB</h2>
+        <p>BoatBnB is a platform that connects boaters with available slips in harbors around the world. Whether you're looking for a place to dock for the night or an extended stay, we make it easy to find the perfect spot.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@boatbnb.com</p>
+        <p>Phone: 1-800-BOATBNB</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 BoatBnB. All rights reserved.</p>
+        <p><a href="#" style="color:white;">Terms of Service</a> | <a href="#" style="color:white;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
